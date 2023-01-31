@@ -4,8 +4,49 @@
 
 /* HEADER CODE */
 
+header {
+    background-color: white;
+    color: black;
+    font-family: var(--NETFLIX-FONT);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header a {
+    margin-left: 25px;
+}
 
 
+header a:link {
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+}
+
+header a:visited {
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgb(0, 150, 255);
+    text-decoration: none;
+}
+
+/* HEADER CLASSES & ID'S */
+
+#newsymbol {
+    background-color: red;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 50px;
+}
+
+#costspan {
+    font-weight: 100;
+}
 
 /* MAIN CODE */
 
