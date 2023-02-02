@@ -1,5 +1,12 @@
 :root {
     --NETFLIX-FONT: 'Roboto', sans-serif;
+
+    --NETFLIX-RED: #e50914;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 /* HEADER CODE */
@@ -31,14 +38,14 @@ header a:visited {
 }
 
 header a:hover {
-    color: rgb(0, 150, 255);
+    color: #0071eb;
     text-decoration: none;
 }
 
 /* HEADER CLASSES & ID'S */
 
 #newsymbol {
-    background-color: red;
+    background-color: var(--NETFLIX-RED);
     color: white;
     padding: 3px 7px;
     border-radius: 50px;
@@ -50,9 +57,161 @@ header a:hover {
 
 /* MAIN CODE */
 
+hr {
+    background-color: rgb(63, 63, 63);
+    color: black;
+    height: 10px;
+    margin: 0px;
+}
+
+.maintext {
+    font-family: var(--NETFLIX-FONT);
+    color: white;
+}
+
 /* MAIN SECTION 1 */
 
+/* MAIN SECTION 1 CLASSES + ID'S */
 
+#mainlink1 {
+    background-color: var(--NETFLIX-RED);
+    padding: 7px 17px;
+    border-radius: 5px;
+    height: 50px;
+    width: 20px;
+}
+
+#mainlink1:link {
+    text-decoration: none;
+    color: white;
+    padding: 7px 17px;
+    border-radius: 5px;
+    height: 50px;
+    width: 20px;
+    background-color: var(--NETFLIX-RED);
+}
+
+#mainlink1:visited {
+    text-decoration: none;
+    color: white;
+    padding: 7px 17px;
+    border-radius: 5px;
+    height: 50px;
+    width: 20px;
+    background-color: var(--NETFLIX-RED);
+}
+
+#getstartedbtn {
+    background-color: var(--NETFLIX-RED);
+    font-family: var(--NETFLIX-FONT);
+    border: 1px solid black;
+    padding: 10px 30px;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+#getstartedbtn:link {
+    text-decoration: none;
+    color: white;
+}
+
+#getstartedbtn:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#getstartedbtn:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #ff000d;
+}
+
+#getstartedbtn:active {
+    text-decoration: none;
+    color: white;
+    background-color: #b3060e;
+}
+
+#mainp1 {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#mainp2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* MAIN SECTION 1 CONTAINERS */
+
+#maincontainer1 {
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("../img/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.500);
+}
+
+#maincontainer1 img {
+    width: 190px;
+    height: 60px;
+}
+
+#maincontainer1 input {
+    width: 478px;
+    height: 58px;
+    padding: 0px 10px 0px 5px;
+}
+
+/* MAIN SECTION 1 ITEMS */
+
+#mainitem1 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1550px;
+    font-weight: 100;
+}
+
+#mainitem2 {
+    margin-top: 100px;
+    width: 100%;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainitem2 h1 {
+    font-size: 65px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+#mainitem2 p {
+    text-align: center;
+    font-weight: 200;
+}
+
+#mainitem3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
 
 
 /* MAIN SECTION 2 */
