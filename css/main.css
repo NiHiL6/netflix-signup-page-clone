@@ -58,7 +58,7 @@ header a:hover {
 /* MAIN CODE */
 
 hr {
-    background-color: rgb(63, 63, 63);
+    background-color: rgba(63, 63, 63, 0.750);
     color: black;
     height: 10px;
     margin: 0px;
@@ -216,8 +216,35 @@ hr {
 
 /* MAIN SECTION 2 */
 
+/* MAIN SECTION 2 CONTAINERS + ID'S */
 
+#maincontainer2 {
+    background-color: black;
+    color: white;
+    font-family: var(--NETFLIX-FONT);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
 
+#mainitem4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#mainitem4 p {
+    font-size: 1.625rem;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+#mainitem4 h2 {
+    font-size: 3.125rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
 
 /* MAIN SECTION 3 */
 
