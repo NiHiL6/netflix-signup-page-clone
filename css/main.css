@@ -254,40 +254,9 @@ hr {
     margin-bottom: 0.5rem;
 }
 
-/* MAIN SECTION 3 */
-
-/* MAIN SECTION 2 CONTAINERS + ID'S */
-
-#maincontainer3 {
-    background-color: black;
-    color: white;
-    height: 550px;
-    font-family: var(--NETFLIX-FONT);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 75px;
-}
-
-#maincontainer3 img {
-    height: 500px;
-    width: 650px;
-}
-
-
-/* MAIN SECTION 4 */
-
-
-
-
-/* MAIN SECTION 5 */
-
-
 
 
 /* MAIN SECTION 6 */
-
 
 
 
